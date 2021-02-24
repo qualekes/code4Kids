@@ -1,0 +1,212 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-color: hsl(199, 100%, 65%);
+}
+
+.container-fluid {
+    padding: 3% 15% 17%;
+
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navingation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+
+}
+
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.header-button-apple{
+    height: 20px;
+    width: 20px;
+}
+
+.header-button-droid {
+    height: 20px;
+    width: 20px;
+}
+
+
+.title-img {
+    width: 100%;
+    height: 610px;
+   /* transform: rotate(25deg);  */
+    position: absolute;
+    right: 30px;
+}
+
+
+#features {
+    padding: 7% 10% ;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.int-learning {
+    margin-top: 10px;
+}
+
+.game-sect {
+    margin-top: 10px;
+}
+.game-p {
+    margin-top: 25px;
+}
+.finger-img{
+    width: 70px;
+    height: 50px;
+}
+
+.headset-img {
+    width: 70px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+.game-img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+   
+}
+
+.display-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lead {
+    font-size: 24px;
+}
+
+#carouselExampleIndicators {
+    
+    text-align: center;
+    background-color: hsl(199, 100%, 65%);
+    color: #fff;
+}
+.testimonial-img {
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.test-img {
+    width: 10%;
+    border-radius: 100%;
+}
+
+#press {
+    background-color: lightgray;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin:20px 20px 50px;
+}
+
+
+
+#pricing {
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+   
+}
+
+.card-deck {
+    width: 33%;
+}
+
+.carousel-item{
+    padding: 7% 15% ;
+}
+
+#cta {
+    background-color:hsl(199, 100%, 65%) ;
+    padding: 40px;
+    text-align: center;
+}
+
+#cta h3 {
+    font-size: 36px;
+}
+.droid {
+    background-color: darkgray;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.apple {
+    
+    font-size: 20px;
+    margin-top: 20px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.droid-button {
+    width: 20px;
+    height: 20px;
+}
+.button-icon {
+    width: 20px;
+    height: 20px;
+}
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+        padding: 0;
+    }
+    .title-img {
+        position: relative;
+        top: 25%;
+        transform: rotate(0);
+        text-align: center;
+    }
+}
+
+
